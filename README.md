@@ -1,4 +1,4 @@
-# Todo App with Authentication and Backend
+# Course Realted Backend with Authentication
 
 <hr>
 
@@ -10,22 +10,23 @@
 
 ### Application Routes:
 
-
+### admin 
+email: nayan@gmail.com
+password: noor011
 ### Auth (User)
 
-    - Route: https://task-app-backend-six.vercel.app/api/v1/auth/login (POST)
-    - Route: https://task-app-backend-six.vercel.app/api/v1/auth/signup (POST)
-    - Route: https://task-app-backend-six.vercel.app/api/v1/auth/refresh-token (POST)
-    - Route: https://task-app-backend-six.vercel.app/api/v1/auth/me (get)
-    - Route: https://task-app-backend-six.vercel.app/api/v1/auth/logout (get)
-    - Route: https://task-app-backend-six.vercel.app/api/v1/auth/reset-password (post)
+    - Route: https://rainer-tech.vercel.app/api/auth/login (POST)
+    - Route: https://rainer-tech.vercel.app/api/auth/signup (POST)
+    - Route: https://rainer-tech.vercel.app/api/auth/refresh-token (POST)
+    - Route: https://rainer-tech.vercel.app/api/auth/me (get)
+    - Route: https://rainer-tech.vercel.app/api/auth/reset-password (post)
    
 
 #### Todo-tasks-route
 
-    - Route:https://task-app-backend-six.vercel.app/api/v1/tasks (GET -> Protected)
-    - Route:https://task-app-backend-six.vercel.app/api/v1/tasks/:id (GET -> Protected)
-    - Route:https://task-app-backend-six.vercel.app/api/v1/tasks (POST -> Protected)
-    - Route:https://task-app-backend-six.vercel.app/api/v1/tasks/:id (PATCH -> Protected)
-    - Route:https://task-app-backend-six.vercel.app/api/v1/tasks/:id (DELETE -> Protected)
-"# rainer-tech" 
+    - Route:https://rainer-tech.vercel.app/api/course (GET -> Protected)
+    - Route:https://rainer-tech.vercel.app/api/course/:id (GET -> Protected)
+    - Route:https://rainer-tech.vercel.app/api/course (POST -> Protected)
+    - Route:https://rainer-tech.vercel.app/api/course/:id (PATCH -> Protected)
+    - Route:https://rainer-tech.vercel.app/api/course/:id (DELETE -> Protected)
+ 
